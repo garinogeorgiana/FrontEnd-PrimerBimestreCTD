@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* General */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea{
+    resize: none;
+}
+
+@media screen and (min-width: 481px) {
+    
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* .p-registro{
+        display: inline-block;
+    } */
+
+}
+
+
+
+

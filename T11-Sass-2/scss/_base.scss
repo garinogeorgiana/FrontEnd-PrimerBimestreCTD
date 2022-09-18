@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: $letter-color;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    @extend .width-pagina;
+}
+
+main {
+    padding-top: 30px;
+    @extend .width-pagina;
+
+    @media screen and ($media-tablet) {
+        width: 90%;
+    }
+
+    .section-1 {
+        display: flex;
+        width: 100%;
+
+
+        .div-be-happy {
+            width: 55%;
+
+            @media screen and (max-width:685px) {
+                width: 100%;
+            }
+            
+            
+
+            h1 {
+                font-family: 'Anton', sans-serif;
+                font-size: 4rem;
+                font-weight: bold;
+                width: 60%;
+                letter-spacing: 10px;
+                line-height: 80px;
+                position: relative;
+                padding-top: 60px;
+
+                &::before {
+                    @include estilos-fondo-titulos(237px, 50px);
+                }
+
+                @media screen and ($media-tablet) {
+                    width: 100%;
+                }
+
+            }
+
+            p {
+                font-size: 1.3rem;
+                padding-top: 20px;
+                opacity: .5;
+                line-height: 150%;
+
+            }
+
+            div {
+                padding: 50px 0px;
+
+
+                a {
+                    @extend .boton-sign;
+                }
+            }
+
+        }
+
+        .div-img {
+            width: 45%;
+
+            @media screen and ($media-tablet) {
+                padding-top: 80px;
+            }
+
+            @media screen and (max-width:685px) {
+                width: 0%;
+            }
+        }
+    }
+
+    /****** section cards ******/
+
+    .section-cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 4;
+
+        @media screen and (max-width:600px) {
+            flex-direction: column;
+            
+        }
+
+        div {
+            width: 30%;
+            
+            @media screen and ($media-tablet) {
+                width: 32%;
+                margin-top: 20px;
+            }
+            @media screen and (max-width:600px) {
+                width: 90%;
+                
+            }
+            background-color: $card-background-color;
+            position: relative;
+            z-index: 5;
+
+            .fondo-subtitulo {
+                content: "";
+                height: 15px;
+                width: 25px;
+                background-color: $primary-color;
+                position: absolute;
+                margin-left: 25px;
+                margin-top: 20px;
+                z-index: -1;
+            }
+
+            .circulo {
+                @include estilos-circulo-sobreado(1px, 1.2rem, solid);
+                font-weight: bold;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+
+            h3 {
+                padding-left: 30px;
+                padding-top: 20px;
+
+            }
+
+            .card-p {
+                padding: 10px 30px 50px 30px;
+
+                @media screen and ($media-tablet) {
+                    padding: 10px 15px 50px;
+                }
+
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

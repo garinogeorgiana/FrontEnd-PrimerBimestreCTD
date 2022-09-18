@@ -1,0 +1,24 @@
+footer {
+    background-color: $primary-color;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    max-width: 1440px;
+
+    h2 {
+        padding: 15px 20px
+    }
+
+    a {
+
+        i {
+            color: white;
+            font-size: 2rem;
+            padding-right: 20px;
+        }
+
+    }
+}

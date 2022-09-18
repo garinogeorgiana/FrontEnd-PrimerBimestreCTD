@@ -1,0 +1,21 @@
+.button-style {
+    background-color: $forth-color;
+    color: $font-secondary-color;
+    border-color: $font-secondary-color;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.img-footer-style {
+    background-color: grey;
+    font-size: 2rem;
+    height: 55px;
+    width: 55px;
+    border-style: outset;
+    border-radius: 50%;
+    border-color: rgba($color: rgb(97, 94, 94), $alpha: 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

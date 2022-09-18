@@ -1,0 +1,43 @@
+header {
+    max-width: 1200px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    @extend .border-style;
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center;
+
+        h1 {
+            padding: 23px 10px;
+            font-size: 1.5rem;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            font-weight: 400;
+        }
+
+        input {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            height: 40px;
+            width: 100%;
+            border-radius: 5px;
+
+            @media screen and (max-width:$mobile-size) {
+                display: none;
+            }
+        }
+
+        img {
+            grid-column-start: 6;
+            grid-column-end: 7;
+            justify-self: flex-end;
+            margin-right: 15px;
+            border-radius: 50%;
+
+        }
+
+
+    }
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: $laptop-size;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 400px;
+    background-color: $third-color;
+
+    @media screen and (max-width:$tablet-size) {
+        max-width: $tablet-size;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+main {
+    .hero {
+
+        background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media screen and (max-width:$mobile-size) {
+            background-image: url("../img/Full\ 1.png");
+        }
+
+        div {
+            height: 440px;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 0px 25px;
+
+
+
+            h2 {
+                background-color: $third-color;
+                padding: 8px 25px;
+                align-self: flex-end;
+                color: $secondary-color;
+                font-weight: 400;
+
+            }
+
+            h3 {
+                color: $font-prymary-color;
+                padding: 10px;
+            }
+
+            a {
+                background-color: $primary-color;
+                color: $font-prymary-color;
+                padding: 15px 30px;
+                position: relative;
+                right: 20px;
+                border-radius: 7px;
+                transition: linear 0.5s;
+
+                &:hover {
+                    @extend .button-style;
+                }
+            }
+        }
+    }
+
+    .productos-destacados {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &>p {
+            color: $primary-color;
+            font-size: 5rem;
+            padding: 23px 10px 10px;
+        }
+
+        &>h2 {
+            color: $font-secondary-color;
+            font-size: 2.5rem;
+            text-align: center;
+            width: 90%;
+        }
+
+        .product-type {
+            button {
+                border-style: none;
+                background-color: $third-color;
+                color: $font-third-color;
+                font-weight: 700;
+                /* letter-spacing: 2px; */
+                padding: 25px;
+                transition: all 0.5s;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgba($color: rgb(241, 217, 217), $alpha: 0.5)
+                }
+            }
+        }
+
+
+    }
+
+    .cards-container {
+        display: flex;
+        gap: 22px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        .card {
+            background-color: $forth-color;
+            margin-top: 20px;
+
+
+            .card-info {
+                padding-bottom: 10px;
+                text-align: center;
+
+                p {
+                    color: $secondary-color;
+                }
+
+                .price {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+
+    .contact-form {
+        padding-top: 30px;
+
+        .contact {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            h2 {
+                font-size: 2.2rem;
+                color: $font-secondary-color;
+            }
+
+            input {
+                background-color: $secondary-color;
+                width: 298px;
+                height: 40px;
+                color: $font-prymary-color;
+                border-radius: 15px;
+                border-style: none;
+            }
+
+            div {
+                display: flex;
+                gap: 10px;
+                padding: 30px;
+
+                input {
+                    width: 120px;
+
+                }
+                
+                input[type=submit] {
+                    background-color: $primary-color;
+                    transition: linear 0.5s;
+
+                    &:hover {
+                        @extend .button-style;
+                    }
+                }
+
+                input[type=reset] {
+                    background-color: #666666;
+                    transition: linear 0.5s;
+
+                    &:hover {
+                        @extend .button-style;
+                    }
+                }
+            }
+        }
+
+        .subscribe {
+            background-color: $primary-color;
+            color: $font-prymary-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+
+            @media screen and (min-width:$mobile-size) {
+                flex-direction: row;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+                text-align: center;
+                padding: 10px 15px 10px 0px;
+            }
+
+            div {
+                
+                @media screen and (min-width:$mobile-size) {
+                    display: flex;
+                }
+                input[type=email] {
+                    width: 220px;
+                    height: 40px;
+                    border-radius: 15px;
+                    border-style: none;
+                    margin-right: 5px;
+                    padding: 10px;
+                    
+                }
+
+                input[type=submit] {
+                    border-style: none;
+                    background-color: $secondary-color;
+                    color: $font-prymary-color;
+                    border-radius: 15px;
+                    padding: 7px;
+                    font-weight: 700;
+                    margin-left: 5px;
+                    padding: 10px;
+                    transition: linear 0.5s;
+                    &:hover {
+                        @extend .button-style;
+                    }
+                }
+            }
+        }
+    }
+
+}

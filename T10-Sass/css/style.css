@@ -1,0 +1,210 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 100%;
+  max-width: 1440px;
+  padding-top: 133px;
+  background-color: #fff;
+}
+
+main .section-datos-personales {
+  padding-bottom: 36px;
+}
+
+main .section-datos-personales ul {
+  padding-left: 38px;
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  main .section-datos-personales ul {
+    width: 90%;
+  }
+}
+
+main .section-datos-personales ul li {
+  padding-top: 10px;
+}
+
+main .section-datos-personales ul li span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+main .section-formacion-academica,
+main .section-experiencia-laboral {
+  padding-bottom: 36px;
+}
+
+main .section-formacion-academica dl,
+main .section-experiencia-laboral dl {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  main .section-formacion-academica dl,
+  main .section-experiencia-laboral dl {
+    width: 90%;
+  }
+}
+
+main .section-formacion-academica dl dt,
+main .section-experiencia-laboral dl dt {
+  padding-top: 10px;
+}
+
+main .section-formacion-academica dl dt span,
+main .section-experiencia-laboral dl dt span {
+  font-weight: bold;
+}
+
+main .section-formacion-academica dl dd,
+main .section-experiencia-laboral dl dd {
+  margin-left: 77px;
+}
+
+section > h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  padding-left: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  section > h2 {
+    text-align: center;
+  }
+}
+
+header {
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 25px;
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div img {
+  margin: 0;
+  height: 146px;
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+header div .batarang {
+  height: 50px;
+  width: 50px;
+  -webkit-animation: batarang 2s infinite linear;
+          animation: batarang 2s infinite linear;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+@-webkit-keyframes batarang {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(-300px) rotate(360deg);
+            transform: translate(-300px) rotate(360deg);
+  }
+  100% {
+    -webkit-transform: translate(0) rotate(720deg);
+            transform: translate(0) rotate(720deg);
+  }
+}
+
+@keyframes batarang {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(-300px) rotate(360deg);
+            transform: translate(-300px) rotate(360deg);
+  }
+  100% {
+    -webkit-transform: translate(0) rotate(720deg);
+            transform: translate(0) rotate(720deg);
+  }
+}
+
+header h1 {
+  background-color: #C4C4C4;
+  width: 100%;
+  text-align: center;
+  color: #005677;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #005677;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  max-width: 1440px;
+}
+
+footer h2 {
+  padding: 15px 20px;
+}
+
+footer a i {
+  color: white;
+  font-size: 2rem;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */

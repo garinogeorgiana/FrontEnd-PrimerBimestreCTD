@@ -1,0 +1,25 @@
+footer {
+    @extend .width-pagina;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    @media screen and ($media-tablet) {
+        width: 90%;
+    }
+    @media screen and ($media-mobile) {
+        padding-bottom: 10px;
+    }
+    .footer-links {
+        display: flex;
+
+        a {
+            margin: 0px 20px;
+            @include estilos-circulo-sobreado(1px, 1.2rem, none);
+
+            img {
+                width: 18px;
+            }
+        }
+    }
+}

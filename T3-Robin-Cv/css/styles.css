@@ -1,0 +1,139 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+/* Estilos generales */
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+   font-family: 'Oswald', sans-serif;
+      
+}
+
+.title {
+    text-transform: uppercase;
+    background-color: #e8eb3f;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f30c04;
+    letter-spacing: 5px;
+}
+
+header, main, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.divSubtitle {
+    background-color: #e8eb3f;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/******* Header *******/
+.divHeader {
+    background-color: #E5E5E5;
+}
+
+.divHeader div {
+    
+    background-image: url("../img/fondo-gotham.jpg");
+    height: 340px;
+    width: 100%;
+   
+}
+
+.divHeader img {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    position: relative;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    
+}
+
+.divHeader h1 {
+    margin: auto;
+    height: 45px;
+    letter-spacing: 7px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/******* Main *******/
+
+main{
+    background-color: rgb(5, 155, 5);
+    padding: 30px 0px 45px;
+}
+
+main div section div h3 {
+    margin-left: 15px;
+}
+
+ ul li span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul {
+    margin-left: 3%;
+    padding: 10px;
+}
+
+dl {
+    margin-left: 3%;
+    padding: 10px;
+} 
+
+.divCenter {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    
+}
+
+
+/******* Footer *******/
+footer{
+    background-color: #e8eb3f;
+    
+}
+footer h3 {
+    background-color: black;
+    color: #f30c04;
+    text-align: center;
+    padding: 10px;
+}
+
+i{
+    color: white;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 4px 30px;
+}
+
+
+/* 
+margin:0 auto para centrar
+dl dt para las listas con sangrias.
+ */

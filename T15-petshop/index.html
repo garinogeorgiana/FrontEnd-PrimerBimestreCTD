@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Ofertas -->
+        <div class="top-bar">
+            <h1>Grandes ofertas en comederos</h1>
+            <div>
+                <select name="language" id="language">
+                    <option value="">Español</option>
+                    <option value="">English</option>
+                    <option value="">Português</option>
+                </select>
+                <select name="currency" id="currency">
+                    <option value="">ARS $</option>
+                    <option value="">USD US$</option>
+                    <option value="">BRL R$</option>
+                </select>
+            </div>
+        </div>
+        <!-- Logo - Menu -->
+        <div class="container-header">
+            <div>
+                <a href="index.html">
+                    <h2><i class="fas fa-dog"></i> Front<span>Cat&Dog</span> <i class="fas fa-cat"></i></h2>
+                </a>
+            </div>
+            <div class="div-menu">
+                <input type="checkbox" name="btn-menu" id="btn-menu">
+                <label for="btn-menu"><img src="img/menu-icon 1.png" alt="Menu"></label>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Categorías</a></li>
+                        <li><a href="index.html">Pets</a></li>
+                        <li><a href="index.html">Nosotros</a></li>
+                        <li><a href="index.html">Contactanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <div class="hero">
+            <div>
+                <h2>¡Es un placer tenerte aquí!</h2>
+                <h3>¡Comederos en descuento!</h3>
+                <a href="index.html">COMEDEROS</a>
+            </div>
+        </div>
+        <!-- section productos destacados -->
+        <section class="productos-destacados">
+            <p><i class="fas fa-paw"></i></p>
+            <h2>Productos Destacados</h2>
+            <div class="product-type">
+                <button>Comederos</button>
+                <span> - </span>
+                <button>Accesorios</button>
+                <span> - </span>
+                <button>Comida</button>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div><img src="img/churrasquito.png" alt="Churrasquito"></div>
+                    <div class="card-info">
+                        <p>Juguete Churrasquito</p>
+                        <p class="price">$150</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div><img src="img/comedero.png" alt="Comedero"></div>
+                    <div class="card-info">
+                        <p>Comedero para perro</p>
+                        <p class="price">$250</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div><img src="img/Huesito.png" alt="Bowl"></div>
+                    <div class="card-info">
+                        <p>Juguete Huesito</p>
+                        <p class="price">$650</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section form -->
+        <!-- contact -->
+        <section class="contact-form">
+            <form action="POST" class="contact">
+                <h2>Contáctanos</h2>
+                <input type="text" name="contact-name" id="contact-name" placeholder="  Nombre y Apellido">
+                <input type="email" name="contact-email" id="contact-email"
+                    placeholder="  Ingresá tu correo electrónico">
+                <input type="tel" name="contact-phone" id="contact-phone" placeholder="  Teléfono">
+                <div>
+                    <input type="reset" value="Resetear">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+            <!-- mail us -->
+            <form action="POST" class="subscribe">
+                <h2><i class="fas fa-wind"></i> <i class="far fa-envelope"></i> Subscribete para más novedades</h2>
+                <div>
+                    <input type="email" name="subscribe-mail" id="subscribe-mail"
+                        placeholder="  Ingresá tu correo electrónico">
+                    <input type="submit" value="Suscribirme">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3 class="logo-footer"><i class="fas fa-dog"></i>Front<span>Cat&Dog</span> <i class="fas fa-cat"></i></h3>
+            <div class="localidad"><i class="fas fa-map-marked-alt"></i></div>
+            <h3>Localidad</h3>
+            <h4>Calle - provincia</h4>
+            <div class="tel-footer"><i class="fas fa-phone-volume"></i></div>
+            <h3>Número de teléfono</h3>
+            <h4>11-111-111-111</h4>
+            <div class="img-mail"><i class="fas fa-at"></i></div>
+            <h3>Correo Electrónico</h3>
+            <h4>Dirección de correo</h4>
+            <h2 class="h2-footer">Todos los derechos reservados Front End</h2>
+        </div>
+    </footer>
+</body>
+
+</html>

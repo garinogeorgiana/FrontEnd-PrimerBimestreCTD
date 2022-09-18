@@ -1,0 +1,36 @@
+header {
+    @extend .width-pagina;
+    @media screen and ($media-tablet) {
+     width: 90%;               
+    }
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width:685px) {
+            flex-direction: column;
+            padding-top: 15px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+
+                li {
+                    padding: 20px;
+
+                    a {
+                        display: inline-;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+header {
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 25px;
+    background-color: $background-header-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin: 0;
+            height: 146px;
+            width: 180px;
+            margin-bottom: 25px;
+
+
+        }
+
+        .batarang {
+            height: 50px;
+            width: 50px;
+            animation: batarang 2s infinite linear;
+            transition: 2s;
+        }
+    }
+
+    @keyframes batarang {
+        0% {
+            transform: translate(0);
+        }
+
+        50% {
+            transform: translate(-300px) rotate(360deg);
+        }
+
+        100% {
+            transform: translate(0) rotate(720deg);
+        }
+    }
+
+    h1 {
+        background-color: $secondary-color;
+        width: 100%;
+        text-align: center;
+        color: $primary-color;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.width-pagina, body, main, header, footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.boton-sign, main .section-1 .div-be-happy div a {
+  margin-right: 20px;
+  padding: 25px 40px;
+  border-radius: 8px;
+  border-style: dotted;
+  border-width: 1px;
+  background-color: #76edf1;
+  font-size: 1.2rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  padding-top: 30px;
+  /****** section cards ******/
+}
+
+@media screen and (max-width: 850px) {
+  main {
+    width: 90%;
+  }
+}
+
+main .section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main .section-1 .div-be-happy {
+  width: 55%;
+}
+
+@media screen and (max-width: 685px) {
+  main .section-1 .div-be-happy {
+    width: 100%;
+  }
+}
+
+main .section-1 .div-be-happy h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  width: 60%;
+  letter-spacing: 10px;
+  line-height: 80px;
+  position: relative;
+  padding-top: 60px;
+}
+
+main .section-1 .div-be-happy h1::before {
+  content: "";
+  background-color: #76edf1;
+  width: 237px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  z-index: -99;
+}
+
+@media screen and (max-width: 850px) {
+  main .section-1 .div-be-happy h1 {
+    width: 100%;
+  }
+}
+
+main .section-1 .div-be-happy p {
+  font-size: 1.3rem;
+  padding-top: 20px;
+  opacity: .5;
+  line-height: 150%;
+}
+
+main .section-1 .div-be-happy div {
+  padding: 50px 0px;
+}
+
+main .section-1 .div-img {
+  width: 45%;
+}
+
+@media screen and (max-width: 850px) {
+  main .section-1 .div-img {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  main .section-1 .div-img {
+    width: 0%;
+  }
+}
+
+main .section-cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 4;
+}
+
+@media screen and (max-width: 600px) {
+  main .section-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+main .section-cards div {
+  width: 30%;
+  background-color: #faf6f6;
+  position: relative;
+  z-index: 5;
+}
+
+@media screen and (max-width: 850px) {
+  main .section-cards div {
+    width: 32%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .section-cards div {
+    width: 90%;
+  }
+}
+
+main .section-cards div .fondo-subtitulo {
+  content: "";
+  height: 15px;
+  width: 25px;
+  background-color: #76edf1;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 20px;
+  z-index: -1;
+}
+
+main .section-cards div .circulo {
+  border-width: 1px;
+  font-size: 1.2rem;
+  border-style: solid;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: -5px 0px 5px 0px #76edf1;
+          box-shadow: -5px 0px 5px 0px #76edf1;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+main .section-cards div h3 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+main .section-cards div .card-p {
+  padding: 10px 30px 50px 30px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 850px) {
+  main .section-cards div .card-p {
+    padding: 10px 15px 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    width: 90%;
+  }
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 685px) {
+  header div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+
+header div h2 {
+  font-size: 2rem;
+}
+
+header div nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+header div nav ul li {
+  padding: 20px;
+}
+
+header div nav ul li a {
+  display: inline-;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding-bottom: 10px;
+  }
+}
+
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-links a {
+  margin: 0px 20px;
+  border-width: 1px;
+  font-size: 1.2rem;
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: -5px 0px 5px 0px #76edf1;
+          box-shadow: -5px 0px 5px 0px #76edf1;
+}
+
+footer .footer-links a img {
+  width: 18px;
+}
+
+/* extends
+    @extend clase */
+/*  mixing 
+    @include class(argumentos) */
+/*# sourceMappingURL=style.css.map */

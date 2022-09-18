@@ -1,0 +1,131 @@
+header {
+    background-color: $primary-color;
+    color: $font-prymary-color;
+    max-width: $laptop-size;
+    min-width: 400px;
+    width: 100%;
+
+    .top-bar {
+        background-color: $fifth-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 10%;
+        @media screen and (max-width:$tablet-size) {
+            display: none;
+        }
+
+        h1 {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+        div {
+            select {
+                background-color: $fifth-color;
+                color: $font-prymary-color;
+                border-style: none;
+            }
+        }
+    }
+
+    .container-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 19px 46px;
+        color: $font-secondary-color;
+
+
+        a {
+            color: $font-secondary-color;
+        }
+
+        span {
+            color: $font-prymary-color;
+        }
+
+        .div-menu {
+
+            #btn-menu {
+                display: none;
+
+                &:checked~.menu {
+                    top: 88px;
+                    right: 0;
+                    /* display: block; */
+                }
+            }
+
+            label {
+                display: none;
+                width: 50px;
+                height: 50px;
+                padding: 10px;
+                @media screen and (max-width:$tablet-size) {
+                    display: block;
+                }
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0 auto;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgba($color: #FFF, $alpha: 0.3)
+                }
+            }
+
+            .menu {
+                position: relative;
+                @media screen and (max-width:$tablet-size) {
+                    position: absolute;
+                    top: -70%;
+                    right: 0;
+                    transition: all 0.5s;
+                    /* display: none; 
+                    top: 88px;
+                    right: 0; */
+
+                }
+
+                ul {
+                    display: flex;
+                    @media screen and (max-width:$tablet-size) {
+                        background-color: $primary-color;
+                        flex-direction: column;
+                    }
+
+                    li {
+                        padding: 15px 20px;
+                        @media screen and (max-width:$tablet-size) {
+                            border: solid 1px $font-secondary-color;
+
+                        }
+
+                        &:hover {
+                            cursor: pointer;
+                            background-color: rgba($color: #FFF, $alpha: 0.3)
+                        }
+
+                        a {
+                            color: $font-prymary-color;
+
+                            &::before {
+                                font-family: "Font Awesome 5 Free";
+                                font-weight: 900;
+                                content: "\f1b0";
+                                padding-right: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}

@@ -1,0 +1,72 @@
+/* header */
+
+header {
+
+    width: 100%;
+}
+
+header p {
+    background: #1CD1B0;
+    padding: 2.5px 20px;
+}
+
+header h1 {
+    background: #00669F;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 12px 20px;
+}
+
+.a-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: unset;
+    background: #00669F;
+    text-decoration: none;
+
+}
+
+nav {
+    background: #001D2D;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a {
+    background: #001D2D;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    
+}
+
+nav a:hover {
+    color: coral;
+}
+
+nav a::before {
+    content: "\f042";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    margin-right: 5px;
+
+}
+
+@media screen and (min-width: 481px) {
+
+    nav {
+        padding-left: 67%;
+        padding-right: 5%;
+    }
+
+    .a-header {
+        padding-right: 50%;
+    }
+
+}

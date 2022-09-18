@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 100px;
+        font-family: 'Inter', sans-serif;
+
+
+        @media screen and (min-width: 1199px) {
+            width: 600px;
+            align-items: flex-start;
+        }
+
+        .historias {
+            width: 364px;
+            @extend .border-style;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 20px;
+            margin-top: 25px;
+
+            img {
+                border-radius: 50%;
+            }
+
+            .historia-5,
+            .historia-6,
+            .historia-7 {
+                display: none;
+
+                @media screen and (min-width: 1199px) {
+                    display: unset;
+                    ;
+
+                }
+            }
+
+            @media screen and (min-width: 1199px) {
+                width: 600px;
+
+            }
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            width: 364px;
+
+
+            .card-top {
+                @extend .border-style;
+                padding: 10px;
+                margin-top: 25px;
+                display: grid;
+                grid-template-columns: repeat(10, 1fr);
+
+                img {
+                    border-radius: 50%;
+                    width: 50px;
+                    width: 50px;
+                    grid-column-start: 0;
+                    grid-column-end: 1;
+                }
+
+                h2 {
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    grid-column-start: 1;
+                    grid-column-end: 5;
+                    padding-left: 10px;
+                }
+
+                i {
+                    grid-column-start: 8;
+                    grid-column-end: 11;
+                    justify-self: end
+                }
+            }
+
+            .card-botton {
+                @extend .border-style;
+
+                .imagen-grande {
+                    padding: 20px 20px 0px;
+                    width: 100%;
+                }
+
+                .reacciones {
+                    padding: 8px 20px;
+                    letter-spacing: 15px;
+                    font-size: 1.5rem;
+                }
+            }
+
+            p {
+                width: 100%;
+                padding: 0px 20px 20px;
+                font-size: 0.7rem;
+                line-height: 0.5;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            .comentarios {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        width: 284px;
+        
+        margin-top: 50px;
+
+
+        .cambiar {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            max-width: 350px;
+            img {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 4;
+
+            }
+
+            .nombre {
+                grid-column-start: 3;
+                grid-column-end: 7;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .subnombre {
+                grid-column-start: 3;
+                grid-column-end: 7;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                opacity: 0.4;
+
+            }
+
+            a {
+                grid-column-start: 9;
+                grid-column-end: 11;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                color: #1CA0F6;
+            }
+        }
+
+        .sugerencias {
+            display: grid;
+            grid-template-columns: repeat(23, 1fr);
+            grid-template-rows: repeat(9, 1fr);
+            max-height: 300px;
+            max-width: 300px;
+
+            h3 {
+                grid-column-start: 1;
+                grid-column-end: 10;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                justify-self: center;
+                align-self: center;
+                opacity: 0.5;
+                font-size: 0.7rem;
+            }
+
+            .avatar-aside-1 {
+                grid-column-start: 1;
+                grid-column-end: 6;
+                grid-row-start: 3;
+                grid-row-end: 6;
+                justify-self: center;
+                align-self: center;
+            }
+
+            .nombre-aside-1 {
+                grid-column-start: 6;
+                grid-column-end: 16;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                justify-self: center;
+                align-self: center;
+            }
+
+            .a-aside-1 {
+                grid-column-start: 21;
+                grid-column-end: 24;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                justify-self: center;
+                align-self: center;
+                color: #1CA0F6;
+            }
+
+            .avatar-aside-2 {
+                grid-column-start: 1;
+                grid-column-end: 6;
+                grid-row-start: 7;
+                grid-row-end: 10;
+                justify-self: center;
+                align-self: center;
+            }
+
+            .nombre-aside-2 {
+                grid-column-start: 6;
+                grid-column-end: 16;
+                grid-row-start: 8;
+                grid-row-end: 9;
+                justify-self: center;
+                align-self: center;
+            }
+
+            .a-aside-2 {
+                grid-column-start: 21;
+                grid-column-end: 24;
+                grid-row-start: 8;
+                grid-row-end: 9;
+                justify-self: center;
+                align-self: center;
+                color: #1CA0F6;
+
+            }
+
+
+
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        @media screen and (max-width: $mobile-size) {
+            display: none;
+        }
+
+    }
+}

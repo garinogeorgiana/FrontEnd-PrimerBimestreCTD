@@ -1,0 +1,15 @@
+.width-pagina {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.boton-sign {
+    margin-right: 20px;
+    padding: 25px 40px;
+    border-radius: 8px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: $primary-color;
+    font-size: 1.2rem;
+}

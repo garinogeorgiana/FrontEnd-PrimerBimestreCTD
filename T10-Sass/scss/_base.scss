@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 100%;
+    max-width: 1440px;
+    padding-top: 133px;
+    background-color: $background-main-color;
+
+    .section-datos-personales {
+        padding-bottom: 36px;
+
+        ul {
+            padding-left: 38px;
+            padding-top: 24px;
+
+            @media screen and ($media-tablet) {
+                width: 90%;
+            }
+
+            li {
+                padding-top: 10px;
+
+                span {
+                    font-weight: bold;
+                    font-style: italic;
+                }
+            }
+        }
+
+    }
+
+    .section-formacion-academica,
+    .section-experiencia-laboral {
+        padding-bottom: 36px;
+
+        dl {
+            padding-left: 24px;
+            padding-top: 24px;
+
+            @media screen and ($media-tablet) {
+                width: 90%;
+
+            }
+
+            dt {
+                padding-top: 10px;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            dd {
+                margin-left: 77px;
+            }
+        }
+
+    }
+}
+
+section>h2 {
+    background-color: $secondary-color;
+    color: $primary-color;
+    padding-left: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    @media screen and ($media-mobile) {
+        text-align: center;
+    }
+}

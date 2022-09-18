@@ -1,0 +1,23 @@
+@mixin estilos-fondo-titulos($width, $height) {
+    content: "";
+    background-color: $primary-color;
+    width: $width;
+    height: $height;
+    display: inline-block;
+    position: absolute;
+    z-index: -99;
+}
+
+@mixin estilos-circulo-sobreado($border-width, $font-size, $border-style) {
+    border-width: $border-width;
+    font-size: $font-size;
+    border-style: $border-style;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 0px 5px 0px rgba(118, 237, 241, 1);
+}
