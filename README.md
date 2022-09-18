@@ -7,7 +7,7 @@
 
 ## 1- Lemon Pie.
 - HTML basico.
-    - https://github.com/garinogeorgiana/FrontEnd-PrimerBimestreCTD/tree/master/T1-Lemon-Pie
+    - https://github.com/garinogeorgiana/FrontEnd-PrimerBimestreCTD/blob/master/1.-Lemon-Pie/index.html
 
 
 ## 2- Batman Cv.
