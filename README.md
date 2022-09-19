@@ -31,8 +31,8 @@ https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/H-CardsPseudoselect
 HTML - CSS // Animaciones.
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/I-Animaciones
 ## 9- Trabajo integrador de los contenidos anteriores.
-HTML - CSS.
-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/J-trabajo-integrador
+-HTML - CSS.
+-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/J-trabajo-integrador
 ## 10- Sass.
 HTML - CSS - Sass // Sass - Nesting y variables.
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/K-Sass
