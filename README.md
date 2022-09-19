@@ -19,14 +19,14 @@ HTML - CSS // Responsive Design.
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/F-CardSuper/
 ## 6- CardSuper.
 - HTML - CSS // Formularios.
-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms
-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/contacto.html
-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/registro.html
-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/login.html
+    https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms
+    https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/contacto.html
+    https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/registro.html
+    https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/login.html
 ## 7- CardSuper.
 HTML - CSS // Pseudoselectores
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/H-CardsPseudoselectores
-https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/H-CardsPseudoselectores/agregar.html
+    https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/H-CardsPseudoselectores/agregar.html
 ## 8- Animaciones.
 HTML - CSS // Animaciones.
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/I-Animaciones
