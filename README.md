@@ -18,7 +18,7 @@ https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/E-Pizza/
 HTML - CSS // Responsive Design.
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/F-CardSuper/
 ## 6- CardSuper.
-HTML - CSS // Formularios.
+- HTML - CSS // Formularios.
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/contacto.html
 https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/G-CardsForms/registro.html
