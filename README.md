@@ -3,7 +3,7 @@
 ## HTML - CSS - SASS - Bootstrap.
 
 ## 1- Lemon Pie.
--HTML basico.
+HTML basico.
   -https://garinogeorgiana.github.io/FrontEnd-PrimerBimestreCTD/B-Lemon-Pie/
 ## 2- Batman Cv.
 HTML - CSS basico.
